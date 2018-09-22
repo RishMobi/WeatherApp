@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="button_today">Today</string>
+    <string name="button_forcaste">Forcaste</string>
+</resources>
