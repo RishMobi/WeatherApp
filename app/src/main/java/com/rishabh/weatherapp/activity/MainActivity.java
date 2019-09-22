@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity implements ApiResponseListen
     @Override
     protected void onResume() {
         super.onResume();
-        Log.e("call on resume", "ok");
     }
 
     @Override
@@ -50,7 +49,6 @@ public class MainActivity extends AppCompatActivity implements ApiResponseListen
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Log.e("Logg","Hello");
         mBinding = DataBindingUtil.setContentView(this, R.layout.activity_main);
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED
                 && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
