@@ -40,5 +40,14 @@
             android:layout_marginTop="10dp"
             android:text="@{weather.getmShowData}" />
 
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            tools:layout_editor_absoluteX="180dp"
+            tools:layout_editor_absoluteY="310dp" />
+
+
     </android.support.constraint.ConstraintLayout>
 </layout>
