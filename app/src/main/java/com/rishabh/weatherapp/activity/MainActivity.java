@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity implements ApiResponseListen
     @Override
     protected void onResume() {
         super.onResume();
+        Log.e("call on resume", "ok");
     }
 
     @Override
